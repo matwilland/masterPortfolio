@@ -23,10 +23,11 @@
   /* color: black; */
   transition: ease-in 0.3s;
 }
-.project-button {
+.project-button{
   display: flex;
   justify-content: center;
   margin-top: 20px;
+
 }
 /* Media Query */
 @media (max-width: 768px) {
