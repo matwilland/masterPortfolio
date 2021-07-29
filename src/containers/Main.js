@@ -11,6 +11,8 @@ import { settings } from "../portfolio.js";
 
 export default class Main extends Component {
   render() {
+    const theme = this.props.theme;
+    console.log(theme);
     if (settings.isSplash) {
       return (
         <div>
